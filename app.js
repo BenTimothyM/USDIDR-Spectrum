@@ -135,7 +135,7 @@ async function loadFromUrl() {
     console.warn("Local server failed or timed out:", err);
     
     // 2. Jika gagal/timeout, otomatis coba Cloud Server (Hugging Face) dengan timeout lebih lama (20 detik)
-    setUrlStatus("ok", "Server Lokal gagal. Mencoba menggunakan Server Cloud...");
+    setUrlStatus("ok", "Mencoba menggunakan Server Cloud...");
     try {
       await fetchMedia(url, null, 20000);
       urlInput.value = "";
