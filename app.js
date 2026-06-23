@@ -93,7 +93,7 @@ async function fetchMedia(url, overrideBase = null, timeout = 7000) {
     } else if (isLocalIp) {
       backendBase = `http://${window.location.hostname}:5500`;
     } else {
-      backendBase = 'https://nnebdev-usdidr-spectrum.hf.space';
+      backendBase = 'https://usdidr-spectrum.railway.internal';
     }
   }
 
