@@ -83,8 +83,8 @@ app.get('/api/load-media', async (req, res) => {
         try { fs.unlinkSync(tempPath); } catch (err) { console.warn('Could not delete existing temp file:', err.message); }
       }
       
-      const dlCmd = `python -m yt_dlp --no-playlist --print "%(title)s" --print "%(uploader)s" -f "bestaudio[ext=m4a]/bestaudio/best" -o "${tempPath}" "${escapedUrl}"`;
-      const { stdout } = await execPromise(dlCmd, { timeout: 30000 });
+      const dlCmd = `python -m yt_dlp --no-playlist --no-check-certificate --prefer-insecure --print "%(title)s" --print "%(uploader)s" -f "bestaudio[ext=m4a]/bestaudio/best" -o "${tempPath}" "${escapedUrl}"`;
+      const { stdout } = await execPromise(dlCmd, { timeout: 300000 });
       
       const lines = stdout.split('\n').map(l => l.trim()).filter(Boolean);
       const cleanLines = lines.filter(l => !l.startsWith('WARNING:') && !l.startsWith('['));
