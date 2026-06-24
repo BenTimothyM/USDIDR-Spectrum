@@ -24,7 +24,6 @@
 ## ✨ Fitur Utama
 
 - **🎵 Upload Musik Sendiri**: Unggah file audio favorit Anda secara langsung dari penyimpanan lokal untuk dianalisis dan diputar di dalam platform.
-- **📺 Dengarkan Musik dari YouTube**: Integrasi streaming audio yang memungkinkan Anda memutar musik langsung menggunakan tautan atau pencarian dari YouTube.
 - **🎛️ Preset Audio Spektrum**: Kendalikan frekuensi dan visualisasi audio Anda secara dinamis dengan pilihan mode khusus seperti **Bass**, **Mid**, **Full**, **Wave**, atau **Maks**.
 
 ---
