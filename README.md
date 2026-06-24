@@ -43,7 +43,7 @@ Proyek ini dibangun menggunakan kombinasi teknologi modern untuk menjamin perfor
 
 ## 📸 Dokumentasi Visual
 
-<img src="https://via.placeholder.com/400x250?text=Dashboard+Overview" width="100%">
+<img src="https://github.com/BenTimothyM/USDIDR-Spectrum/blob/main/preview.png?raw=true" width="100%">
 
 ---
 
@@ -52,7 +52,7 @@ Proyek ini dibangun menggunakan kombinasi teknologi modern untuk menjamin perfor
 Tidak perlu melakukan instalasi rumit di perangkat lokal Anda! Proyek ini sudah di-deploy secara online dan bisa langsung diakses secara interaktif untuk dicoba maupun dimainkan.
 
 Silakan kunjungi tautan berikut:
-👉 **[LINK DISINI]()**
+👉 **[LINK DISINI](https://usdidr-spectrum.vercel.app/)**
 
 ---
 
